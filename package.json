@@ -31,11 +31,13 @@
     "css-loader": "^6.7.3",
     "electron": "22.0.2",
     "node-loader": "^2.0.0",
+    "react-router-dom": "^6.6.2",
     "style-loader": "^3.3.1"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6"
   }
 }
