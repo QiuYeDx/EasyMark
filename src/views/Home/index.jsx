@@ -1,14 +1,16 @@
 import React, {useEffect} from "react";
-import {Wrap, DemoButton} from "./styles.js";
+import {Wrap, Container, DemoButton} from "./styles.js";
+import {useNavigate} from "react-router-dom";
 
 function Home() {
+    const navigate = useNavigate();
     return (
         <Wrap>
-            <a href="#/demo">
-                <DemoButton>
+            <Container>
+                <DemoButton onClick={() => navigate('demo')}>
                     查看Demo
                 </DemoButton>
-            </a>
+            </Container>
         </Wrap>
     );
   }
